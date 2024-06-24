@@ -25,5 +25,5 @@ let roundingCeil = Math.ceil(7/3);
 console.log(`roundingCeil: 7 / 3 = ${roundingCeil}`);
 
 result = 10 / 3;
-let toFixedNumber = result.toFixed(3);
+let toFixedNumber = result.toFixed(5);
 console.log(`toFixedNumber: ${toFixedNumber}`);
