@@ -9,7 +9,7 @@ console.log(`${userHeight} m`);
 let BMI = (userWeight / (userHeight * 2)).toFixed(1);
 console.log(`Your BMI is: ${BMI}`);
 
-// Decide User body fatness
+// Decide User body fatness Statment
 if (BMI <= 18.5) {
     console.log('You are Underweight, you should increase your weight');
 } else if (BMI <= 24.9) {
