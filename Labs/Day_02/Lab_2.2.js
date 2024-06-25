@@ -13,7 +13,7 @@ console.log(`${decimal}`);
 if (decimal == 0) {
     console.log('Your number is a even number');
 } else if (decimal == 0.5) {
-    console.log('Your number is a even number');
+    console.log('Your number is a odd number');
 } else (console.log("Please input a valid interger number"));
 
 
