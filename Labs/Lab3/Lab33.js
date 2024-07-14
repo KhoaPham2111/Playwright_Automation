@@ -19,7 +19,7 @@
 // console.log(intArray);
 
 //Array Declare
-const { getInputArray, bubbleSortArray } = require('./inputArray.js');
+const { getInputArray, bubbleSortArray } = require('./ArrayFunctions.js');
 const userArray = getInputArray();
 console.log('Final array:', userArray);
 bubbleSortArray(userArray)

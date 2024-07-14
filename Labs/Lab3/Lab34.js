@@ -1,5 +1,5 @@
 //Array Declare
-const { getInputArray, bubbleSortArray } = require('./inputArray.js');
+const { getInputArray, bubbleSortArray } = require('./ArrayFunctions.js');
 const foo = getInputArray();
 console.log('Final foo array:', foo);
 bubbleSortArray(foo)
