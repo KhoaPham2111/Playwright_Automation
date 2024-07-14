@@ -1,5 +1,5 @@
 //Array Declare
-const { getInputArray, bubbleSortArray } = require('./ArrayFunctions.js');
+const { getInputArray, bubbleSortArray } = require('./inputArray.js');
 const foo = getInputArray();
 console.log('Final foo array:', foo);
 bubbleSortArray(foo)
@@ -7,10 +7,10 @@ console.log('Final sorted foo array:', foo);
 const bar = getInputArray();
 console.log('Final bar array:', bar);
 bubbleSortArray(bar)
-console.log('Final sorted bar array:', bar);
+console.log('Final sorted foo array:', bar);
 const merged = [];
 
-
+// logic
 let fooPosition = 0;
 let barPosition = 0
 let fooLength = foo.length;

@@ -1,5 +1,5 @@
 //Array Declare
-const { getInputArray } = require('./ArrayFunctions.js');
+const { getInputArray } = require('./inputArray.js');
 const userArray = getInputArray();
 console.log('Final array:', userArray);
 

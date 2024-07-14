@@ -1,7 +1,7 @@
 //const intArr = [1, 2, 3, 4, 5];
 
 //Array Declare
-const { getInputArray } = require('./ArrayFunctions.js');
+const { getInputArray } = require('./inputArray.js');
 const userArray = getInputArray();
 console.log('Final array:', userArray);
 let evenNumbs = 0;
