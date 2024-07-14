@@ -1,5 +1,3 @@
-const readline = require('readline-sync');
-
 // Input number
 let number = Number(readline.question('Please input a number:'))
 
